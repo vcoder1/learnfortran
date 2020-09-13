@@ -1,0 +1,14 @@
+---FORMATTED OUTPUT---
+Format specifier in parantheses
+Eg. PRINT '(i5)', j
+
+For INTEGER nix
+For CHARACTER nax
+For REAL in floating point nfx.y
+For REAL in exponential nex.y
+
+n= no, real/integer/character 
+x= field width
+n=no. of characters reserved for fractional or exponential part
+
+Same principle applies for FORMATTED INPUT.
