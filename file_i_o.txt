@@ -1,0 +1,18 @@
+File I/O in Fortran works via "unit numbers"
+
+Unit nos.for files are issued by using the OPEN keyword
+
+I/O is done using WRITE(similar to PRINT) and READ
+
+WRITE (<unit_num>,<fmt>) vars
+
+READ(<unit_num>,<fmt>) vars
+
+Unit nos. are released using the CLOSE keyword
+
+unit_num=5, is the deafult value for reading in from the command line
+
+unit_num=6, is the default value for printing the output on a screen
+
+HENCE, DO NOT USE UNIT NUMBERS 5 & 6 FOR INDEXING.
+
