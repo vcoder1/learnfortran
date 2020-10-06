@@ -13,4 +13,3 @@ PROGRAM format_spec
        PRINT '(i5 f15.8)', i, j ! BOTH INTEGER AND REAL 
 
 END PROGRAM format_spec
-
