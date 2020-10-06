@@ -18,3 +18,12 @@ yields the range -999999 to 999999 with the least margin.
 Also, if on a given proceessor, if the kind value is 3, the first constant can be written as:
 
 '-123456_3'
+
+The value of the kind type parameter for a given data type on a given processor can be
+obtained from the kind intrinsic function-
+'kind(1) ! for the default value'
+'kind(2_k6) ! for the example'
+
+The decimal exponent range (number of decimal digits supported) of a given entity may
+be obtained from another function as in - 
+'range(2_k6)'
