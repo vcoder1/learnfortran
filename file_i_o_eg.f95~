@@ -1,3 +1,4 @@
+
       PROGRAM output_file
               IMPLICIT NONE
               INTEGER :: u=7, ios ! the name ios doesn't matter..what 
@@ -21,3 +22,4 @@
                       PRINT '(a30)', "Error: file not open"
               END IF
       END PROGRAM output_file
+
